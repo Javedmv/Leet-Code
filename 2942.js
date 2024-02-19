@@ -5,7 +5,7 @@
  * @return {number[]}
  */
 var findWordsContaining = function(words, x) {
-    let indices = []
+    let indices = [];
     for(let i = 0 ; i < words.length ; i++){
         for(let char of words[i]){
             if(x === char){
