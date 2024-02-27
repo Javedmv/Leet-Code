@@ -1,4 +1,4 @@
-// 232. Implement Queue using Stacks
+//p 232. Implement Queue using Stacks
 
 var MyQueue = function() {
     this.stack1 = [];
